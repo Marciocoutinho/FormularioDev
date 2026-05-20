@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +19,7 @@
       </div>
 
       <form id="form" class="form">
-        <div class="form-control error">
+        <div class="form-control">
           <label for="username">Nome de usuário</label>
           <input
             type="text"
@@ -31,7 +31,7 @@
           <small>Mensagem de erro</small>
         </div>
 
-        <div class="form-control error">
+        <div class="form-control">
           <label for="email">E-mail</label>
           <input type="text" id="email" placeholder="Digite seu E-mail..." />
           <i class="fas fa-exclamation-circle"></i>
@@ -39,9 +39,13 @@
           <small>Mensagem de erro</small>
         </div>
 
-        <div class="form-control success">
+        <div class="form-control">
           <label for="password">Senha</label>
-          <input type="text" id="password" placeholder="Digite sua senha..." />
+          <input
+            type="password"
+            id="password"
+            placeholder="Digite sua senha..."
+          />
           <i class="fas fa-exclamation-circle"></i>
           <i class="fas fa-check-circle"></i>
           <small>Mensagem de erro</small>
@@ -50,7 +54,7 @@
         <div class="form-control">
           <label for="password-confirmation">Confirmação de senha</label>
           <input
-            type="text"
+            type="password"
             id="password-confirmation"
             placeholder="Confirme sua senha..."
           />
